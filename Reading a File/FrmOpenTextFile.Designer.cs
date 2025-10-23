@@ -35,9 +35,9 @@
             // lvShowText
             // 
             this.lvShowText.HideSelection = false;
-            this.lvShowText.Location = new System.Drawing.Point(12, 12);
+            this.lvShowText.Location = new System.Drawing.Point(28, 12);
             this.lvShowText.Name = "lvShowText";
-            this.lvShowText.Size = new System.Drawing.Size(671, 292);
+            this.lvShowText.Size = new System.Drawing.Size(636, 277);
             this.lvShowText.TabIndex = 0;
             this.lvShowText.UseCompatibleStateImageBehavior = false;
             // 
