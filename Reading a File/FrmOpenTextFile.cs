@@ -24,7 +24,7 @@ namespace Reading_a_File
             openFileDialog1.DefaultExt = "txt";
             openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
             openFileDialog1.ShowDialog();
-            lvShowText.Items.Clear();   
+            lvShowText.Items.Clear();
             using (StreamReader streamReader = File.OpenText(path))
             {
                 string _getText = "";
